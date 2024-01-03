@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Learn v6 TKD Master the Art</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="introduction">Introduction: \n
+        Welcome to Learn v6 TKD Master the Art – your ultimate\n
+        guide to mastering the art of Taekwondo! Be you a novice or an accomplished practitioner,
+        This application is intended to offer thorough instruction, training materials, and insightful analysis.
+        entering the Taekwondo realm. Prepare to go out on a quest of self-awareness, self-control, and
+        Taekwondo is an ancient Korean martial art that promotes physical health.
+    </string>
+    <string name="historic">History: \n
+        Learn v6 TKD Master the Art traces the rich history of
+        Taekwondo, a martial art that originated in Korea. From its roots in ancient Korean martial
+        traditions to its recognition as an official Olympic sport, Taekwondo has a fascinating evolution.
+        Explore the historical milestones, iconic figures, and cultural significance that have shaped Taekwondo
+        into the dynamic and respected martial art it is today. Gain a deeper appreciation for the legacy and
+        global impact of Taekwondo through our curated content and historical insights.</string>
+    <string name="philosophy">Philosophy:\n
+        At Learn v6 TKD Master the Art, we embrace the core
+        tenets of Taekwondo philosophy – courtesy, integrity, perseverance, self-control, and
+        indomitable spirit. Our app is built on the belief that the pursuit of excellence in Taekwondo
+        goes beyond physical techniques; it encompasses personal development, mental resilience,
+        and a commitment to ethical principles. </string>
+</resources>

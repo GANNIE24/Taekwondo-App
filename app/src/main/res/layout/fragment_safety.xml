@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragments.HomeFragment"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAFETY TIPS"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warm-up Properly:Always begin your Taekwondo training session with a thorough warm-up.\nInclude dynamic stretches to increase blood flow and flexibility."
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:background="#181851"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use Protective Gear:\n Wear the appropriate protective gear, including headgear, mouthguards, and sparring gear.\nEnsure that protective gear is well-fitted and in good condition."
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:background="#181851"
+            android:textColor="@color/white"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Follow Instructor's Guidance:\nPay close attention to your instructor's guidance during training.\nFollow proper techniques and listen to instructions for each movement."
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:background="#181851"
+            android:textColor="@color/white"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stay Hydrated:\nDrink an adequate amount of water before, during, and after training.\nAvoid dehydration, especially during intense workouts."
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:background="#181851"
+            android:textColor="@color/white"
+            android:padding="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Know Your Limits:\nListen to your body and know your physical limits.\nAvoid pushing yourself too hard, especially if you're a beginner."
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:background="#181851"
+            android:textColor="@color/white"
+            android:padding="16dp"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

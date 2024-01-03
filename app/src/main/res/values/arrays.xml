@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="id_activityScreenTitles">
+        <item></item>
+        <item>Home</item>
+        <item>Belts</item>
+        <item>Techniques</item>
+        <item>Safety Tips</item>
+
+    </string-array>
+
+    <array name="id_activityScreenIcon">
+
+        <item>@drawable/baseline_exit_to_app_24</item>
+        <item>@drawable/homers</item>
+        <item>@drawable/belter</item>
+        <item>@drawable/techtech</item>
+        <item>@drawable/safetips</item>
+
+    </array>
+</resources>

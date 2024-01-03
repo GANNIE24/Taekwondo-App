@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_belt.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/beltTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Belt Title"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/border_background" /> <!-- Apply the border_background drawable -->
+
+
+    <ImageView
+        android:id="@+id/beltImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/beltTitleTextView"
+        android:src="@drawable/beltwhite"
+        android:scaleType="centerCrop"
+        android:background="@drawable/border_background"
+        android:padding="50dp"/>
+
+    <TextView
+        android:id="@+id/beltDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beltImageView"
+        android:gravity="center"
+        android:text="Belt Description"
+        android:background="#F2F2F2"
+        android:padding="8dp"/>
+
+</RelativeLayout>
